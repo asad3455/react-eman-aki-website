@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-eman-aki-website/static/css/main.62d25913.css",
-    "main.js": "/react-eman-aki-website/static/js/main.42bbe318.js",
+    "main.js": "/react-eman-aki-website/static/js/main.97989dfe.js",
     "static/media/main_photo_cropped.png": "/react-eman-aki-website/static/media/main_photo_cropped.0ebb877490bc5f850418.png",
     "static/media/firstpic.png": "/react-eman-aki-website/static/media/firstpic.4403e87a50deecd59786.png",
     "static/media/camel.png": "/react-eman-aki-website/static/media/camel.3be456997e295b630618.png",
@@ -26,10 +26,10 @@
     "static/media/fancybox_loading@2x.gif": "/react-eman-aki-website/static/media/fancybox_loading@2x.13563fd2e1fdbc6f8b9c.gif",
     "index.html": "/react-eman-aki-website/index.html",
     "main.62d25913.css.map": "/react-eman-aki-website/static/css/main.62d25913.css.map",
-    "main.42bbe318.js.map": "/react-eman-aki-website/static/js/main.42bbe318.js.map"
+    "main.97989dfe.js.map": "/react-eman-aki-website/static/js/main.97989dfe.js.map"
   },
   "entrypoints": [
     "static/css/main.62d25913.css",
-    "static/js/main.42bbe318.js"
+    "static/js/main.97989dfe.js"
   ]
 }
