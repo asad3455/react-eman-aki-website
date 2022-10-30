@@ -17,10 +17,10 @@ export function Header() {
                         <div className={isActive ? "header-nav open" : "header-nav"}>
                             <nav>
                                 <ul className="member-actions">
-                                    <li><a href="pages/timeline.html" className="login">Our Story</a></li>
-                                    <li><a href="pages/events.html" className="login">The Big Day</a></li>
-                                    <li><a href="pages/venue.html" className="login">Venue</a></li>
-                                    <li><a href="pages/gifts.html" className="login">Gifts</a></li>
+                                    <li><a href="timeline" className="login">Our Story</a></li>
+                                    <li><a href="events" className="login">The Big Day</a></li>
+                                    <li><a href="venue" className="login">Venue</a></li>
+                                    <li><a href="gifts" className="login">Gifts</a></li>
                                 </ul>
                             </nav>
                         </div>

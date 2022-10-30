@@ -352,18 +352,6 @@ section .header {
     }
 }
 
-.wp1,
-.wp2,
-.wp3,
-.wp4,
-.wp5,
-.wp6,
-.wp7,
-.wp8,
-.wp9 {
-    visibility: hidden
-}
-
 .wp8,
 .wp9 {
     -webkit-animation-delay: 0.3s;
@@ -767,11 +755,11 @@ header .member-actions {
 }
 
 .events .time {
-    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
     font-style: italic;
     text-transform: lowercase;
     color: rgba(241,78,149);
-    font-weight: bold;
 }
 
 .timeline h4{
@@ -781,6 +769,7 @@ header .member-actions {
 }
 
 .timeline .time {
+    font-family: 'Cormorant Garamond', serif;    
     font-size: 13px;
     font-style: italic;
     color: #000;

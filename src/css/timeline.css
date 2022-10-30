@@ -9,6 +9,10 @@ html{
   scroll-behavior: smooth;
 }
 
+h4{
+  padding-bottom: 15px;
+}
+
 .wrapper{
   max-width: 1080px;
   margin: 50px auto;
@@ -26,25 +30,18 @@ html{
 }
 
 .timeline-image{
-  display: none;
   padding: 10px;
+  max-width: 50%;  
   border: 1px solid #f14e95
 }
-.wrapper .row{
-  display: flex;
-}
+
 .wrapper .row-1{
   justify-content: flex-start;
 }
 .wrapper .row-2{
   justify-content: flex-end;
 }
-.wrapper .row section{
-  border-radius: 5px;
-  width: calc(50%);
-  padding: 0px 20px 20px 20px;
-  position: relative;
-}
+
 .wrapper .row section::before{
   position: absolute;
   content: "";
@@ -62,34 +59,6 @@ html{
   left: -7px;
 }
 
-.row section .icon{
-  position: absolute;
-  background: #f2f2f2;
-  height: 170px;
-  width: 170px;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #3ea0e2;
-  font-size: 17px;
-  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
-}
-.center-line .scroll-icon{
-  bottom: 0px;
-  left: 45%;
-  font-size: 25px;
-  transform: translateX(-50%);
-}
-.row-1 section .icon{
-  top: 15px;
-  right: -110px;
-}
-.row-2 section .icon{
-  top: 15px;
-  left: -110px;
-}
-
-
 .row section .bottom{
   display: flex;
   align-items: center;
@@ -103,20 +72,7 @@ html{
   text-align: center;
   margin: 20px 100px 17px 0px;
 }
-.wrapper .row-1 section p{
-  margin: 0 50px 25px 0;
-  text-align: center;
-}
-.wrapper .row-1 section .details{
-  margin: 0 50px 25px 0;
-}
-.wrapper .row-2 section p{
-  margin: 0 20px 25px 80px;
-  text-align: center;
-}
-.wrapper .row-2 section .details{
-  margin: 0 20px 25px 80px;
-}
+
 .row section .bottom a{
   text-decoration: none;
   background: #3ea0e2;
@@ -130,91 +86,48 @@ html{
 .row section .bottom a:hover{
   transform: scale(0.97);
 }
-@media(max-width: 790px){
-  .wrapper .row-1 section p{
-    margin: 15px 10px 10px 90px;
-  }
-  .wrapper .row-1 section .details{
-    margin: 0 10px 10px 120px;
-  }
-  .wrapper .row-2 section p{
-    margin: 15px 10px 10px 90px;
-  }
-  .wrapper .row-2 section .details{
-    margin: 0 10px 10px 120px;
-  }
-  .wrapper .row-1{
-    justify-content: flex-end;
-  }
-  .wrapper .row-2{
-    justify-content: flex-end;
-  }
-  .wrapper .center-line{
-    left: 105px;
-  }
-  .wrapper .row{
-    margin: 30px 0 3px 60px;
-  }
-  .row section .details{
-    margin: 30px 0 3px 120px;
-  }
-  .row section p{
-    margin: 30px 0 3px 120px;
-  }
-  .row section title{
-    margin: 30px 0 3px 120px;
-  }
-  .wrapper .row section{
-    width: 100%;
-    margin: auto;
-  }
-  .row section::before{
-    left: -60px;
-  }
-  .row section .icon{
-    left: -60px;
-  }
-}
-@media(max-width: 440px){
-  .wrapper .row-1 section p{
-    margin: 0 0 3px 10px;
-  }
-  .wrapper .row-1 section .details{
-    margin: 0 0 3px 10px;
-  }
-  .wrapper .row-2 section p{
-    margin: 0 0 3px 10px;
-  }
-  .wrapper .row-2 section .details{
-    margin: 0 0 3px 10px;
-  }
-  .wrapper .row{
-    margin: 0 0 3px 60px;
-  }
-  .row section .details{
-    margin: 0 0 3px 10px;
-  }
-  .row section p{
-    margin: 0 0 3px 10px;
-  }
-  .row section title{
-    margin: 0 0 3px 10px;
-  }
-  .timeline-image{
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    padding: 10 10 10 10;
-  }
 
-  .wrapper .center-line,
-  .row section::before,
-  .row section .icon{
-    display: none;
-  }
-  .wrapper .row{
-    margin: 10px 0;
+.wrapper .row-1 section p{
+  margin: 0 0 3px 10px;
+}
+.wrapper .row-1 section .details{
+  margin: 0 0 3px 10px;
+}
+.wrapper .row-2 section p{
+  margin: 0 0 3px 10px;
+}
+.wrapper .row-2 section .details{
+  margin: 0 0 3px 10px;
+}
+.wrapper .row{
+  margin: 0 0 3px 60px;
+}
+.row section .details{
+  margin: 0 0 3px 10px;
+}
+.row section p{
+  margin: 0 0 3px 10px;
+}
+.row section title{
+  margin: 0 0 3px 10px;
+}
+.timeline-image{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  padding: 10 10 10 10;
+}
+
+.wrapper .row{
+  margin: 10px 0;
+}
+
+@media(max-width: 440px){
+  .timeline-image{
+    padding: 10px;
+    max-width: 100%;  
+    border: 1px solid #f14e95
   }
 }

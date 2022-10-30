@@ -10,6 +10,8 @@ import './css/jquery.fancybox.css'
 import './css/flexslider.css'
 import './css/styles.min.css'
 import './css/queries.css'
+import './css/timeline.css'
+import './css/gifts.css'
 import "animate.css/animate.css";
 import "font-awesome/css/font-awesome.min.css";
 
