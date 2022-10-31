@@ -2,14 +2,14 @@ export function Gifts() {
     return (
         <section className="gifts section-padding" id="gifts">
             <div className="container">
-                <div className="row" style={{paddingTop: '10px'}}>
-                    <div className="text-center">
-                        <h2 className="main-title-alt">Send us a message</h2>
-                    </div>
-                </div>
                 <div className="formbold-main-wrapper">
                     <div className="formbold-form-wrapper">
-                        <form action="https://formspree.io/f/myyvnlva" method="POST">
+                        <div className="row" style={{ paddingTop: '10px' }}>
+                            <div className="text-center">
+                                <h2 className="main-title-alt">Send us a message</h2>
+                            </div>
+                        </div>
+                        <form action="https://formbold.com/s/oYXL3" method="POST">
                             <div className="row">
                                 <div className="formbold-mb-2">
                                     <div>
@@ -24,7 +24,7 @@ export function Gifts() {
                                     </div>
                                 </div>
                             </div>
-                    
+
                             <div className="row">
                                 <div className="formbold-mb-2">
                                     <label htmlFor="message" className="formbold-form-label">
@@ -56,7 +56,7 @@ export function Gifts() {
                                 <p className="bank-details">Account number: 31532860</p>
                             </div>
 
-                            <p className="bank-heading" style={{paddingBottom: "0px", paddingTop: "15px"}}>Bank of Maldives: </p>
+                            <p className="bank-heading" style={{ paddingBottom: "0px", paddingTop: "15px" }}>Bank of Maldives: </p>
                             <div className="bank-border">
                                 <p className="bank-details">Name: Akeed Ahmed</p>
                                 <p className="bank-details">Account Number: 7701132600102</p>

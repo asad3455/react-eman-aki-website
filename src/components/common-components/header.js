@@ -6,7 +6,6 @@ export function Header() {
     const [isActive, setIsActive] = useState(false);
 
     function setActiveTab(e) {
-        e.preventDefault()        
         setIsActive(current => !current);
     }
 
@@ -18,16 +17,16 @@ export function Header() {
                         <div className={isActive ? "header-nav open" : "header-nav"}>
                             <nav>
                                 <ul className="member-actions">
-                                    <li><Link to="/" className="login">Home</Link></li>
-                                    <li><Link to="/timeline" className="login">Our Story</Link></li>
-                                    <li><Link to="/events" className="login">The Big Day</Link></li>
-                                    <li><Link to="/venue" className="login">Venue</Link></li>
-                                    <li><Link to="/gifts" className="login">Gifts</Link></li>
+                                    <li><Link to="/" className="login" onClick={setActiveTab}>Home</Link></li>
+                                    <li><Link to="/timeline" className="login" onClick={setActiveTab}>Our Story</Link></li>
+                                    <li><Link to="/events" className="login" onClick={setActiveTab}>The Big Day</Link></li>
+                                    <li><Link to="/venue" className="login" onClick={setActiveTab}>Venue</Link></li>
+                                    <li><Link to="/gifts" className="login" onClick={setActiveTab}>Gifts</Link></li>
                                 </ul>
                             </nav>
                         </div>
                         <div className="navicon">
-                            <a className={isActive ? "nav-toggle active" : "nav-toggle"} onClick={setActiveTab} href="#"><span></span></a>
+                            <a className={isActive ? "nav-toggle active" : "nav-toggle"} onClick={setActiveTab}><span></span></a>
                         </div>
                     </div>
                 </header>

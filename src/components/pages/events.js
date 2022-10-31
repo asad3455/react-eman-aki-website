@@ -18,7 +18,7 @@ export function Events() {
             <div className="container">
                 <div className="row">
                     <div className="text-center">
-                        <p className="main-title-alt">Events</p>
+                        <h2 className="main-title-alt">Events</h2>
                     </div>
                 </div>
                 <div className="events-border">
