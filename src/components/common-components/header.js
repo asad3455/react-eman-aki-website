@@ -42,7 +42,7 @@ export function Header() {
                         </div>
                     </div>
                 </div>
-                <div className="down-arrow floating-arrow"><a href="#invitation"><i className="fa fa-angle-down"></i></a></div>
+                <div className="down-arrow floating-arrow"><i className="fa fa-angle-down"></i></div>
                 <div className="row">
                     <div className="col-sm-4 hidden-xs"></div>
                     <div className="col-sm-4 hidden-xs"></div>

@@ -4,8 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
 @font-face {
-    font-family: Lafadz;
-    src: url(../fonts/Lafadz.otf);
+    font-family: "Lafadz";
+    src: url(../fonts/lafadz.ttf);
+    src: url(../fonts/lafadz.otf);
   }
 
 *{
@@ -34,11 +35,10 @@ p {
 }
 
 .arabic-font{
-    font-family: "Lafadz";
-    font-size: 30px;
-    margin-bottom: 10px;
-    line-height: 1.5;
+    font-family: 'Lafadz';
+    font-size: 90px;
     font-weight: 500;
+    padding-bottom: 25px;
 }
 
 .sub-title{
@@ -1139,7 +1139,7 @@ body.modal-open {
         color:#f14e95;
     }
     .section-padding {
-        padding: 40px 20px
+        padding: 10px 20px
     }
 
     .body-text{

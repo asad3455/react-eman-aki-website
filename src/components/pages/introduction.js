@@ -4,7 +4,7 @@ export function Introduction() {
             <div className="container">
                 <div className="row">
                     <div className="text-center">
-                        <p className="arabic-font">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+                        <p className="arabic-font">u</p>
                         <p className="main-title">Please join us for our wedding reception on:</p>
                         <p className="sub-title">December 20, 2022</p>
                     </div>
