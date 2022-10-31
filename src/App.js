@@ -12,11 +12,11 @@ function App() {
     <div className="App">
       <Header/>
         <Routes>
-            <Route exact path="/" element={<Introduction/>}/>
             <Route exact path="/events" element={<Events/>}/>
             <Route exact path="/timeline" element={<Timeline/>}/>
             <Route exact path="/venue" element={<Venue/>}/>
             <Route exact path="/gifts" element={<Gifts/>}/>
+            <Route exact path="/" element={<Introduction/>}/>
         </Routes>
       <Footer/>
     </div>

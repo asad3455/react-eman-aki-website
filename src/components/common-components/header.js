@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import { Link } from 'react-router-dom';
 
 
 export function Header() {
@@ -17,10 +18,11 @@ export function Header() {
                         <div className={isActive ? "header-nav open" : "header-nav"}>
                             <nav>
                                 <ul className="member-actions">
-                                    <li><a href="timeline" className="login">Our Story</a></li>
-                                    <li><a href="events" className="login">The Big Day</a></li>
-                                    <li><a href="venue" className="login">Venue</a></li>
-                                    <li><a href="gifts" className="login">Gifts</a></li>
+                                    <li><Link to="/" className="login">Home</Link></li>
+                                    <li><Link to="/timeline" className="login">Our Story</Link></li>
+                                    <li><Link to="/events" className="login">The Big Day</Link></li>
+                                    <li><Link to="/venue" className="login">Venue</Link></li>
+                                    <li><Link to="/gifts" className="login">Gifts</Link></li>
                                 </ul>
                             </nav>
                         </div>
