@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-eman-aki-website/static/css/main.32631db1.css",
+    "main.css": "/react-eman-aki-website/static/css/main.fac2c93d.css",
     "main.js": "/react-eman-aki-website/static/js/main.ef6cb0a8.js",
     "static/media/firstpic_min.png": "/react-eman-aki-website/static/media/firstpic_min.7c012a9765396b632dcb.png",
     "static/media/camel_min.png": "/react-eman-aki-website/static/media/camel_min.574c5a92cdcdc8414d7f.png",
@@ -26,11 +26,11 @@
     "static/media/glyphicons-halflings-regular.eot": "/react-eman-aki-website/static/media/glyphicons-halflings-regular.2810d2a49be3af435f61.eot",
     "static/media/fancybox_loading@2x.gif": "/react-eman-aki-website/static/media/fancybox_loading@2x.13563fd2e1fdbc6f8b9c.gif",
     "index.html": "/react-eman-aki-website/index.html",
-    "main.32631db1.css.map": "/react-eman-aki-website/static/css/main.32631db1.css.map",
+    "main.fac2c93d.css.map": "/react-eman-aki-website/static/css/main.fac2c93d.css.map",
     "main.ef6cb0a8.js.map": "/react-eman-aki-website/static/js/main.ef6cb0a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.32631db1.css",
+    "static/css/main.fac2c93d.css",
     "static/js/main.ef6cb0a8.js"
   ]
 }
