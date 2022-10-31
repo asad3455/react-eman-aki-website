@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-eman-aki-website/static/css/main.029907e1.css",
-    "main.js": "/react-eman-aki-website/static/js/main.4a4b53a4.js",
-    "static/media/main_photo_cropped.png": "/react-eman-aki-website/static/media/main_photo_cropped.0ebb877490bc5f850418.png",
-    "static/media/firstpic.png": "/react-eman-aki-website/static/media/firstpic.4403e87a50deecd59786.png",
-    "static/media/camel.png": "/react-eman-aki-website/static/media/camel.3be456997e295b630618.png",
-    "static/media/engagement.png": "/react-eman-aki-website/static/media/engagement.27117dd5d45ec8b5fdea.png",
-    "static/media/anniversary.png": "/react-eman-aki-website/static/media/anniversary.295ee55ba0f4e968b6a7.png",
-    "static/media/dating.jpg": "/react-eman-aki-website/static/media/dating.4eb70c05e4b4549f4ab1.jpg",
+    "main.css": "/react-eman-aki-website/static/css/main.32631db1.css",
+    "main.js": "/react-eman-aki-website/static/js/main.ef6cb0a8.js",
+    "static/media/firstpic_min.png": "/react-eman-aki-website/static/media/firstpic_min.7c012a9765396b632dcb.png",
+    "static/media/camel_min.png": "/react-eman-aki-website/static/media/camel_min.574c5a92cdcdc8414d7f.png",
+    "static/media/main_photo_cropped_min.png": "/react-eman-aki-website/static/media/main_photo_cropped_min.246f797abac9c0e99172.png",
+    "static/media/engagement_min.png": "/react-eman-aki-website/static/media/engagement_min.3cb257df56c8f72f651a.png",
+    "static/media/anniversary_min.png": "/react-eman-aki-website/static/media/anniversary_min.9281b6af4e2a7e1fd63c.png",
+    "static/media/dating_min.jpg": "/react-eman-aki-website/static/media/dating_min.748a1145e995b54088bc.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/react-eman-aki-website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.svg": "/react-eman-aki-website/static/media/fontawesome-webfont.f99a539702ca783ba6ca.svg",
     "static/media/polygonal-bg.jpg": "/react-eman-aki-website/static/media/polygonal-bg.f72458ff9b7661fd97a6.jpg",
     "static/media/fontawesome-webfont.eot": "/react-eman-aki-website/static/media/fontawesome-webfont.c85f891f3546f43416b8.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/react-eman-aki-website/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.ttf": "/react-eman-aki-website/static/media/fontawesome-webfont.3aafdf0641262e5c3037.ttf",
-    "static/media/nusery.png": "/react-eman-aki-website/static/media/nusery.51a44bfd80700b411ec4.png",
+    "static/media/nusery_min.png": "/react-eman-aki-website/static/media/nusery_min.51a44bfd80700b411ec4.png",
     "static/media/lafadz.ttf": "/react-eman-aki-website/static/media/lafadz.87f9244fc431a87ac74d.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/react-eman-aki-website/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff": "/react-eman-aki-website/static/media/fontawesome-webfont.e646f99c3a5716022363.woff",
@@ -26,11 +26,11 @@
     "static/media/glyphicons-halflings-regular.eot": "/react-eman-aki-website/static/media/glyphicons-halflings-regular.2810d2a49be3af435f61.eot",
     "static/media/fancybox_loading@2x.gif": "/react-eman-aki-website/static/media/fancybox_loading@2x.13563fd2e1fdbc6f8b9c.gif",
     "index.html": "/react-eman-aki-website/index.html",
-    "main.029907e1.css.map": "/react-eman-aki-website/static/css/main.029907e1.css.map",
-    "main.4a4b53a4.js.map": "/react-eman-aki-website/static/js/main.4a4b53a4.js.map"
+    "main.32631db1.css.map": "/react-eman-aki-website/static/css/main.32631db1.css.map",
+    "main.ef6cb0a8.js.map": "/react-eman-aki-website/static/js/main.ef6cb0a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.029907e1.css",
-    "static/js/main.4a4b53a4.js"
+    "static/css/main.32631db1.css",
+    "static/js/main.ef6cb0a8.js"
   ]
 }
