@@ -56,7 +56,7 @@ export function Gifts() {
                                 <p className="bank-details">Account number: 31532860</p>
                             </div>
 
-                            <p className="bank-heading" style={{ paddingBottom: "0px", paddingTop: "15px" }}>Bank of Maldives: </p>
+                            <p className="bank-heading" style={{paddingTop: "15px" }}>Bank of Maldives: </p>
                             <div className="bank-border">
                                 <p className="bank-details">Name: Akeed Ahmed</p>
                                 <p className="bank-details">Account Number: 7701132600102</p>

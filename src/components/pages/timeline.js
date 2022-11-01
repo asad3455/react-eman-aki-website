@@ -14,7 +14,7 @@ export function Timeline() {
                         </div>
                     </section>
                 </div>
-                <img className="timeline-image" alt="first-pic" src={require('../../img/firstpic_min.png')} />
+                <img className="timeline-image" alt="first-pic" src={require('../../img/firstpic_min_30.png')} />
                 <div className="row row-1">
                     <section>
                         <p className="time">(Liverpool - 2020)</p>
@@ -23,7 +23,7 @@ export function Timeline() {
                         </div>
                     </section>
                 </div>
-                <img className="timeline-image" alt="first-dating" src={require('../../img/dating_min.jpg')} />
+                <img className="timeline-image" alt="first-dating" src={require('../../img/dating_min_30.jpg')} />
                 <div className="row row-1">
                     <section>
                         <p className="time">(Birmingham - 2021)</p>
@@ -32,7 +32,7 @@ export function Timeline() {
                         </div>
                     </section>
                 </div>
-                <img className="timeline-image" alt="engagement" src={require('../../img/engagement_min.png')} />
+                <img className="timeline-image" alt="engagement" src={require('../../img/engagement_min_30.png')} />
                 <div className="row row-1">
                     <section>
                         <p className="time">(Bath - 2021)</p>
@@ -41,7 +41,7 @@ export function Timeline() {
                         </div>
                     </section>
                 </div>
-                <img className="timeline-image" alt="anniversary" src={require('../../img/anniversary_min.png')} />
+                <img className="timeline-image" alt="anniversary" src={require('../../img/anniversary_min_30.png')} />
                 <div className="row row-1">
                     <section>
                         <p className="time">(Birmingham - 2022)</p>
@@ -50,7 +50,7 @@ export function Timeline() {
                         </div>
                     </section>
                 </div>
-                <img className="timeline-image" alt="morocco" src={require('../../img/camel_min.png')} />
+                <img className="timeline-image" alt="morocco" src={require('../../img/camel_min_30.png')} />
                 <div className="row row-1 text-center">
                     <section>
                         <p className="time">(Morocco - 2022)</p>

@@ -459,7 +459,7 @@ section .header {
 
 .hero {
     min-height: 750px;
-    background: url("../img/hero-dimmer.png"), url("../img/main_photo_cropped_min.png") center center;
+    background: url("../img/hero-dimmer.png"), url("../img/main_photo_cropped_min_60.png") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
