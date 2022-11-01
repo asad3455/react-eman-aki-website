@@ -18,7 +18,7 @@ body {
     max-width: 650px;
     width: 100%;
     background: #f8f9fd;
-    padding: 20px;
+    padding: 15px;
     padding-bottom: 30px;
 }
 
@@ -55,11 +55,12 @@ select.formbold-form-input,
 .formbold-form-label {
     color: #07074D;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 17.5px;
     line-height: 24px;
     display: block;
     margin-bottom: 10px;
     font-family: 'Cormorant Garamond', serif;
+    padding-top: 10px;
 }
 
 .formbold-form-file-flex {

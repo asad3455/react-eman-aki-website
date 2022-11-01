@@ -36,8 +36,8 @@ export function Header() {
                     <div className="col-md-10 col-md-offset-1">
                         <div className="hero-content text-center">
                             <img src={require('../../img/logo.png')} />
-                            <p>Our Wedding</p>
-                            <h4>Eman & Aki</h4>
+                            <p style={{margin: 0}}>Our Wedding</p>
+                            <h4>Aki & Eman</h4>
                         </div>
                     </div>
                 </div>

@@ -46,8 +46,8 @@ export function Gifts() {
                     </div>
                     <section className="gift-section">
                         <div className="text-center gift-section formbold-form-wrapper">
-                            <h2 className="main-title-alt">Gifts</h2>
-                            <p>Your presence at our wedding is the greatest gift you could give us. If you wish to give a gift we will gratefully accept a contribution towards our future.</p>
+                            <h2 className="main-title-alt" style={{marginTop: 0}}>Gifts</h2>
+                            <p className="body-text" style={{padding: 0}}>Your presence at our wedding is the greatest gift you could give us. If you wish to give a gift we will gratefully accept a contribution towards our future.</p>
 
                             <p className="bank-heading">UK bank account: </p>
                             <div className="bank-border">
