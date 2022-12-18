@@ -2,7 +2,7 @@
 
 .hero .hero-content p{
     font-family: 'La Belle Aurore', cursive;
-    font-size: 30px!important;
+    font-size: 25px!important;
     color: #fff;
     padding-bottom: 0;
 }
@@ -13,7 +13,7 @@
     font-size: 100px;
 }
 .hero .hero-content img{
-    max-width: 80px;  
+    max-width: 70px;  
 }
 
 
@@ -30,27 +30,6 @@
 
 }
 
-@media screen and (max-width: 1024px) {
-    .hero .hero-content {
-        padding-top: 30%;
-    }
-    .hero .hero-content p{
-        font-family: 'La Belle Aurore', cursive;
-        font-size: 16px!important;
-        color: #fff;
-        padding-bottom: 0;
-    }
-    .hero .hero-content h4{
-        padding-top: 0%;
-        font-family: 'La Belle Aurore', cursive;
-        color: #fff;
-        font-size: 54px;
-    }
-    .hero .hero-content img{
-        max-width: 80px;  
-    }
-}
-
 /* Responsive nav kicks in */
 @media screen and (max-width: 991px) {
     header {
@@ -59,7 +38,7 @@
     }
 
     .hero .hero-content {
-        padding-top: 50%;
+        padding-top: 390px
     }
 
     .hero .hero-content p{
@@ -305,67 +284,10 @@
     }
 }
 
-@media screen and (max-width: 640px) {
-    .hero .hero-content {
-        padding-top: 50%;
-    }
-
-    .hero .hero-content p{
-        font-family: 'La Belle Aurore', cursive;
-        font-size: 16px!important;
-        color: #fff;
-        padding-bottom: 0;
-    }
-
-    .hero .hero-content h4{
-        padding-top: 0%;
-        font-family: 'La Belle Aurore', cursive;
-        color: #fff;
-        font-size: 54px;
-        padding: 0;
-    }
-    
-    .hero .hero-content img{
-        max-width: 80px;  
-    }
-
-    #eng-pics .img-wrap i {
-        font-size: 25px;
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        top: 10px;
-        right: 10px; }
-
-    #map-content-wrapper {
-        margin-bottom: 0;
-    }
-    
-    footer ul.footer-group {
-        border-top: none;
-    }
-
-    footer ul.footer-group li a {
-        font-size: 13px;
-        text-transform: uppercase;
-        padding: 20px 0;
-        display: block;
-        border-bottom: dashed 1px #4E566C;
-    }
-
-    footer ul.footer-group li {
-        display: block;
-    }
-
-    footer .footer-links {
-        margin: 50px 0 50px 0;
-    }
-
-}
 
 @media screen and (max-width: 480px) {
     .hero .hero-content {
-        padding-top: 80%;
+        padding-top: 280px
     }
 
     .hero .btn {
@@ -419,35 +341,5 @@
     .hero .hero-content img{
         max-width: 50px;  
         padding-top: 30px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .hero .hero-content {
-        padding-top: 80%;
-    }
-
-    .rsvp {
-        padding-top: 20px;
-    }
-
-    .hero .hero-content p{
-        font-family: 'La Belle Aurore', cursive;
-        font-size: 16px!important;
-        color: #fff;
-        padding-bottom: 0;
-    }
-
-    .hero .hero-content h4{
-        padding-top: 0%;
-        font-family: 'La Belle Aurore', cursive;
-        color: #fff;
-        font-size: 54px;
-        padding: 0;
-    }
-    
-    .hero .hero-content img{
-        max-width: 80px;  
-        margin-bottom: 24px; 
     }
 }
